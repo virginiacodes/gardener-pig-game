@@ -1,0 +1,67 @@
+#gameArea{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+
+#menu{
+    display: none;
+    background-color: rgb(234, 175, 212);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    opacity: 80%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgb(124, 123, 123);
+}
+
+h1{
+    text-align: center;
+    color: rgb(167, 244, 163);
+}
+
+h1:hover{
+    color: rgb(57, 137, 57);
+}
+
+#menuBtn{
+    
+    width: 70px;
+    height: 40px;   
+    text-decoration: none;
+    background-color: rgb(234, 175, 212);
+    border-radius: 10px;
+    float: left;
+    position: absolute;
+    margin-left: 80px;
+}
+
+#menuBtn:hover{
+    background-color: rgb(200, 122, 171);
+    scale: 1.1;
+
+}
+
+#x{
+    width: 30px;
+    float: right;
+    margin: -20px;
+    border: 1px solid rgb(66, 157, 61);
+    text-align: center;
+    color: rgb(167, 244, 163);
+    background-color: rgb(234, 175, 212);
+    border-radius: 5px;
+}
+
+#x:hover{
+    color: rgb(57, 137, 57);
+    border: 1px solid rgb(57, 137, 57);
+}
